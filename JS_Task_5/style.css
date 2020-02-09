@@ -1,0 +1,68 @@
+body,html {
+	margin: 0 !important;
+    padding: 0 !important;
+	box-sizing: border-box;
+	
+}
+
+.outher_container{
+ width: 90vw;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.cell{
+	margin: 10px;
+}
+
+.column{
+	display: flex;
+	align-items: center;
+}
+
+.row{
+	display: block;
+	width: 25%;
+	align-items: center;
+}
+
+#pagination{
+  list-style: none;	
+}
+
+.container{
+	text-align: center;
+}
+
+#pagination li{
+	cursor: pointer;
+	display: inline-block;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;
+}
+
+#pagination li:hover{
+	color: rgb(16, 212, 81);
+	border-color: rgb(16, 212, 81);
+}
+
+.active{
+	color: rgb(16, 212, 81);
+	border-color: rgb(16, 212, 81) !important;
+}
+
+.modeNoList{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+img{
+	height: auto;
+}
+
+.menu img{
+	cursor: pointer;
+}
+
+
